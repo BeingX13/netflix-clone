@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Netflix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix">
+    </div>
+    <div class="nav-right">
+        <button class="language-btn">English ▾</button>
+        <a href="#" class="signin-btn">Sign In</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Unlimited movies, shows and more</h1>
+        <h2>Starts at ₹149. Cancel at any time.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="email" placeholder="Emter email here" id="">
+        <a href="#" class="get-started">Get Started</a>
+    </div>
+</div>
+
+<section>
+    <h2 class="category-title">Trending Now</h2>
+    <div class="row">
+        <div class="poster"><img src="poster1.jpg" alt=""></div>
+        <div class="poster"><img src="poster2.jpg"></div>
+        <div class="poster"><img src="poster3.webp" alt=""></div>
+        <div class="poster"><img src="poster4.jpg" alt=""></div>
+        <div class="poster"><img src="poster5.webp" alt=""></div>
+        <div class="poster"><img src="poster6.webp" alt=""></div>
+        <div class="poster"><img src="poster7.jpg" alt=""></div>
+        <div class="poster"><img src="poster8.jpg" alt=""></div>
+    </div>
+</section>
+
+<section>
+    <h2 class="category-title">Popular on Netflix</h2>
+    <div class="row">
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/tVxDe01Zy3kZqaZRNiXFGDICdZk.jpg" alt=""></div>
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg" alt=""></div>
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/akpsBDCYJ3uD5fKEAQXkyWzxiYt.jpg" alt=""></div>
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/bvYjhsbxOBwpm8xLE5BhdA3a8CZ.jpg" alt=""></div>
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" alt=""></div>
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg" alt=""></div>
+        <div class="poster"><img src="poster1.jpg" alt=""></div>
+        <div class="poster"><img src="poster2.jpg" alt=""></div>
+    </div>
+</section>
+
+<section>
+    <h2 class="category-title">Because you watched Action</h2>
+    <div class="row">
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg" alt=""></div>
+        <div class="poster"><img src="https://image.tmdb.org/t/p/w500/mDVPeQ5ZaaeO2Qh7VlXZchHHuLN.jpg" alt=""></div>
+        <div class="poster"><img src="poster3.webp" alt=""></div>
+        <div class="poster"><img src="poster6.webp" alt=""></div>
+        <div class="poster"><img src="poster1.jpg" alt=""></div>
+        <div class="poster"><img src="poster2.jpg" alt=""></div>
+        <div class="poster"><img src="poster4.jpg" alt=""></div>
+        <div class="poster"><img src="poster5.jpg" alt=""></div>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-questions">
+                Questions? Call <a href="tel:0008009191743">000-800-919-1743</a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Speed Test</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                        <li><a href="#">Legal Notices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Ways to Watch</a></li>
+                        <li><a href="#">Corporate Information</a></li>
+                        <li><a href="#">Only on Netflix</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">Media Centre</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="language-select">
+            <button class="language-btn">English ▾</button>
+        </div>
+
+        <div class="footer-bottom">
+            Netflix India
+        </div>
+    </div>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
